@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = KWOCMacroDefinite;
+			productName = KWOCMacroDefinite;
 		};
 /* End PBXAggregateTarget section */
 
@@ -352,8 +353,8 @@
 		0604111BB7558240C4A99657919EE78D /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		077BB5971B69FE60FE1B2F1E7512BE3B /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		0871CBF5338D0285C7BE3DF89BA06DD0 /* Expecta+Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-prefix.pch"; sourceTree = "<group>"; };
-		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		09E750726AA5DCCA5E6DFA84C09BD4C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E750726AA5DCCA5E6DFA84C09BD4C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0A137A19C5F122D38094F4AB3F172F7D /* KWCategoriesLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KWCategoriesLib-Info.plist"; sourceTree = "<group>"; };
 		0DC5EB95BF072EFA6B9BF41079DB92B8 /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		0DDCC6DFD3954070AE83559586C28086 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
@@ -361,18 +362,19 @@
 		11B3F51975A06AB5289FCBA6B386552F /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
 		128D95F11574BDD12737338DD48F4E8D /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
 		1459B380F9493B30E331887A0E445812 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15B13B063AA97C48C9010C298AECBDDA /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D8293522F546B0006793C8 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PublicHeader.h; path = KWPublicUISDK/Classes/PublicHeader.h; sourceTree = "<group>"; };
+		15B13B063AA97C48C9010C298AECBDDA /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1612E082ED93496FD06BECC95A2CDC14 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		16824CF2A5AE78CD715BDAA73AEA8B08 /* Expecta+Snapshots.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Expecta+Snapshots.modulemap"; sourceTree = "<group>"; };
 		179EF76379CE7BBEDB8070919E34FB8A /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
 		17C9FF3FA0CB720B7B336AC9DDDD4AF8 /* Pods-KWPublicUISDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWPublicUISDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		1AD94FBDC4C96DB2A0B461E214E7B35C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		1F18DB69ACDE6F4818E16F31FCA6E3E5 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		201F38A1AC71718C90AE36C536F8A829 /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+fixOrientation.h"; path = "KWCategoriesLib/Classes/UIImage+fixOrientation.h"; sourceTree = "<group>"; };
 		204AE9B4C8EA582C6958FDDF34DFECC9 /* ExpectaObject+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpectaObject+FBSnapshotTest.m"; sourceTree = "<group>"; };
 		2053AF758C7B69EE30CEDB50C3E40B73 /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
-		20B68C9269B45825E82F4F5ECE0EB27C /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta_Snapshots.framework; path = "Expecta+Snapshots.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B68C9269B45825E82F4F5ECE0EB27C /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		211F90EF9E993EBBFF5555FF9186B83E /* UITextView+RestrictLength.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+RestrictLength.m"; path = "KWCategoriesLib/Classes/UITextView+RestrictLength.m"; sourceTree = "<group>"; };
 		234404425A1391013545D6D95A31606C /* NSString+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Addition.m"; path = "KWCategoriesLib/Classes/NSString+Addition.m"; sourceTree = "<group>"; };
 		234A3CA899F52C008235FC951B1DCD1B /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
@@ -402,7 +404,7 @@
 		49DFE171AD98ED2078CB7006159E7EFE /* Pods-KWPublicUISDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KWPublicUISDK_Example-dummy.m"; sourceTree = "<group>"; };
 		4A33503DCE3B1F0E1F79A750D60954ED /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
 		4A77ADD75B72C1E14428200094994ECC /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
-		4A8CDAD901372DE6D34A579563F25422 /* KWPublicUISDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KWPublicUISDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4A8CDAD901372DE6D34A579563F25422 /* KWPublicUISDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KWPublicUISDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4E7B60FE9CC014444A23710DBDDC1A35 /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
 		4E7ED5849A967D4F501676731D1D0D2E /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
 		4ECF2B599D4C644267B3C108541B5B1B /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
@@ -412,7 +414,7 @@
 		50664889D178B3EC7349AE48DD67B397 /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
 		517CCC184ED731DD61DE62E816713BD0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		522D26DCE776023F43C2C35E3D582220 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
-		530C3101095CE64953B2B87F19C68E3C /* Pods_KWPublicUISDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KWPublicUISDK_Tests.framework; path = "Pods-KWPublicUISDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		530C3101095CE64953B2B87F19C68E3C /* Pods_KWPublicUISDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWPublicUISDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		542138446FAE345F13BCE23F5606C8D0 /* KWPublicUISDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KWPublicUISDK-Info.plist"; sourceTree = "<group>"; };
 		54D474BDE488246CC153542F6DD495EC /* Expecta+Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.xcconfig"; sourceTree = "<group>"; };
 		558A3E46D6CE5D290F8B0C851254CCC2 /* KWPublicUISDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KWPublicUISDK-umbrella.h"; sourceTree = "<group>"; };
@@ -422,7 +424,7 @@
 		57B069467458CA7567F016FD432D7102 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "KWCategoriesLib/Classes/UIColor+Hex.m"; sourceTree = "<group>"; };
 		593334E126914C451065927523D39597 /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
 		5C1637BCE231F6624C5A6B930A2AFB77 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7298C4F1EF6908C037F8E71F81B295 /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
 		5F6CD8C9BAB21D840B60433971795D31 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		605A523504D65E4B16805F8006D1BA15 /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
@@ -451,7 +453,7 @@
 		73EA5168E4B620DF1F749214F152010B /* Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.xcconfig; sourceTree = "<group>"; };
 		741E92C1664F4326A1B58D1B10322F83 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		74BA0B235838F20B1C607C976081D2CC /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
-		750C7F2CF5754AC39724146897C95087 /* KWPublicUISDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KWPublicUISDK.framework; path = KWPublicUISDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		750C7F2CF5754AC39724146897C95087 /* KWPublicUISDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KWPublicUISDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7567ED55A888C771778FC71B1EFC91C3 /* Pods-KWPublicUISDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KWPublicUISDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		75EFE423648AF8FDAA1558C6D01DF423 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
 		77547F909D84A23F6AC78C7045B4E1C9 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
@@ -497,8 +499,8 @@
 		9AC306F08CB0F58E61DD3824B259586E /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		9C153E833F8656207B173604C5641ECA /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
 		9C482DD7782F038B403D04D4A5147710 /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
-		9C66FEE2B7F72212A6ADA5FB2FFDEA26 /* KWCategoriesLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KWCategoriesLib.framework; path = KWCategoriesLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C66FEE2B7F72212A6ADA5FB2FFDEA26 /* KWCategoriesLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KWCategoriesLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A071E448622AA7DDE5CECCC641FED696 /* Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Specta-dummy.m"; sourceTree = "<group>"; };
 		A1D5ADDB95BA4C84C77EB46D12244120 /* YWNaviBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YWNaviBarView.m; path = KWPublicUISDK/Classes/YWNaviBarView.m; sourceTree = "<group>"; };
 		A4BEC4E49EF4620DBBD89C4F8CC6585B /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
@@ -532,7 +534,7 @@
 		C22BF937D99C40A69AEEBFBAC747FA49 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
 		C32F797E0C6E8A321F5364E9E84E2554 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
 		C65873EAB28A6A95507ADCFEF76AA429 /* UIButton+ClickBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+ClickBounds.h"; path = "KWCategoriesLib/Classes/UIButton+ClickBounds.h"; sourceTree = "<group>"; };
-		C6702E42C7507C8A1FD9811A4D8FB211 /* Pods_KWPublicUISDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KWPublicUISDK_Example.framework; path = "Pods-KWPublicUISDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6702E42C7507C8A1FD9811A4D8FB211 /* Pods_KWPublicUISDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWPublicUISDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C671676A4695FF4D0174C4130D5D5B26 /* UIView+EqualMargin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+EqualMargin.h"; path = "KWCategoriesLib/Classes/UIView+EqualMargin.h"; sourceTree = "<group>"; };
 		C7A8DA7C3AE30933BD76F32450A91AA8 /* KWOCMacroDefinite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KWOCMacroDefinite.xcconfig; sourceTree = "<group>"; };
 		C7C12CC0A0464D27C2F8787E21C83954 /* Pods-KWPublicUISDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KWPublicUISDK_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -581,7 +583,7 @@
 		EED68F01497F976801ED55A3ECDDB4C1 /* Pods-KWPublicUISDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KWPublicUISDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F03C7147CFD77932EA3FB4EE2EFEF24D /* KWPublicUISDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KWPublicUISDK.xcconfig; sourceTree = "<group>"; };
 		F228A1BF01A67C10A07AEDACA3314B6F /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
-		F2AE5B8EA4C469CC909A00225EBA1A4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F2AE5B8EA4C469CC909A00225EBA1A4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F417C6ECFD56DEFC0A8342533DE6B131 /* Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Expecta.modulemap; sourceTree = "<group>"; };
 		F70729A144990E960E69D39C1C981252 /* Pods-KWPublicUISDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KWPublicUISDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F7BBA039A8E59C2E38E47489E0A7F682 /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
@@ -743,7 +745,6 @@
 				266354142A106B3500CE822C086B8436 /* ViewController+MASAdditions.m */,
 				82EAEB04C12B3828CF01CCD1480E3B2E /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -825,7 +826,6 @@
 				C851AC638261EDE44CC68A21756DC46E /* NSValue+Expecta.m */,
 				00441F869A8010F79893BE685AAEB0A9 /* Support Files */,
 			);
-			name = Expecta;
 			path = Expecta;
 			sourceTree = "<group>";
 		};
@@ -858,7 +858,6 @@
 				FE733CE92DCF2B75FE6C42CDF3C60F6B /* UIView+EqualMargin.m */,
 				A5CDBEFB3F6C8966D36E0DA4EA718B28 /* Support Files */,
 			);
-			name = KWCategoriesLib;
 			path = KWCategoriesLib;
 			sourceTree = "<group>";
 		};
@@ -871,7 +870,6 @@
 				3863F70D553E4D8C0130E01F4793E4CB /* EXPMatchers+FBSnapshotTest.m */,
 				BE685720AFD0FE7C61E2529936EC48F6 /* Support Files */,
 			);
-			name = "Expecta+Snapshots";
 			path = "Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
@@ -923,7 +921,6 @@
 				8AE522AA99F1449B4D320817B5FBBC70 /* Support Files */,
 				AE79B4B93233B041B4A52CE7D16A674B /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -974,7 +971,6 @@
 				8F8E9F75AE6E1ED5904FC4EE2A64A2FC /* KWOCMacro.h */,
 				EA0BBA40379D93BD4009CF3BA5AEF8D5 /* Support Files */,
 			);
-			name = KWOCMacroDefinite;
 			path = KWOCMacroDefinite;
 			sourceTree = "<group>";
 		};
@@ -1079,6 +1075,7 @@
 		C257C43E7D692D13D3822564869D0040 /* KWPublicUISDK */ = {
 			isa = PBXGroup;
 			children = (
+				14D8293522F546B0006793C8 /* PublicHeader.h */,
 				03DB1163C2CB676DA9BD93644D4A2951 /* YWAlert.h */,
 				713AA2609F09557B28E9B2604761AE75 /* YWAlert.m */,
 				FE87A2A6E3F2DC0A045E6E61736C9540 /* YWNaviBarView.h */,
@@ -1149,7 +1146,6 @@
 				9856BA33E254D627F8C390603115C275 /* XCTestCase+Specta.m */,
 				6AEE1B8DC0AA6F641D2DAE020AD23CBA /* Support Files */,
 			);
-			name = Specta;
 			path = Specta;
 			sourceTree = "<group>";
 		};
@@ -2293,8 +2289,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
