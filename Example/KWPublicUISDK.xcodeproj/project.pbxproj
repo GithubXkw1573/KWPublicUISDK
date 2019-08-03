@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		04F21631D7321613BFDCFFE2 /* Pods-KWPublicUISDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWPublicUISDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KWPublicUISDK_Tests/Pods-KWPublicUISDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		071A97BA057CD4A62B4827A1 /* KWPublicUISDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KWPublicUISDK.podspec; path = ../KWPublicUISDK.podspec; sourceTree = "<group>"; };
+		071A97BA057CD4A62B4827A1 /* KWPublicUISDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KWPublicUISDK.podspec; path = ../KWPublicUISDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1734E72352170E0BFEDE125C /* Pods-KWPublicUISDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWPublicUISDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-KWPublicUISDK_Tests/Pods-KWPublicUISDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		41EDD0F08F92EAF27DCA1C63 /* Pods-KWPublicUISDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWPublicUISDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-KWPublicUISDK_Example/Pods-KWPublicUISDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KWPublicUISDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWPublicUISDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,12 +60,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6A3CB99EC41DE976678C3A6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6A3CB99EC41DE976678C3A6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ACC77BBAF7BF36558AB1997 /* Pods-KWPublicUISDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWPublicUISDK_Example.release.xcconfig"; path = "Target Support Files/Pods-KWPublicUISDK_Example/Pods-KWPublicUISDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C214096233C968F438C6AD0D /* Pods_KWPublicUISDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWPublicUISDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F82C9F9B4025EF295E6D44E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F82C9F9B4025EF295E6D44E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FBDC35314A70552AD86372D0 /* Pods_KWPublicUISDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KWPublicUISDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				04F21631D7321613BFDCFFE2 /* Pods-KWPublicUISDK_Tests.debug.xcconfig */,
 				1734E72352170E0BFEDE125C /* Pods-KWPublicUISDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -371,11 +371,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KWPublicUISDK_Example/Pods-KWPublicUISDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KWCategoriesLib/KWCategoriesLib.framework",
 				"${BUILT_PRODUCTS_DIR}/KWPublicUISDK/KWPublicUISDK.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KWCategoriesLib.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KWPublicUISDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

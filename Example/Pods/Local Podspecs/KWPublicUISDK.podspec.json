@@ -1,0 +1,30 @@
+{
+  "name": "KWPublicUISDK",
+  "version": "0.1.0",
+  "summary": "iOS公共UI组件.",
+  "description": "iOS公共UI组件，包含Alert、NavigationBar等.",
+  "homepage": "https://github.com/GithubXkw1573/KWPublicUISDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "GithubXkw1573": "1074030698@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/GithubXkw1573/KWPublicUISDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KWPublicUISDK/Classes/**/*",
+  "dependencies": {
+    "KWCategoriesLib": [
+      "~> 0.1.2"
+    ],
+    "KWOCMacroDefinite": [
+      "~> 0.1.1"
+    ]
+  }
+}

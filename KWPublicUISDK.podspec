@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KWPublicUISDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KWPublicUISDK.'
+  s.summary          = 'iOS公共UI组件.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+iOS公共UI组件，包含Alert、NavigationBar等.
                        DESC
 
   s.homepage         = 'https://github.com/GithubXkw1573/KWPublicUISDK'
@@ -38,5 +38,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'KWCategoriesLib', '~> 0.1.2'
+  s.dependency 'KWOCMacroDefinite', '~> 0.1.1'
 end

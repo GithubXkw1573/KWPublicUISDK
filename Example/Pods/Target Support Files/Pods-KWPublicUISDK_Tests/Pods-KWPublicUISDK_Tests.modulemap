@@ -1,0 +1,6 @@
+framework module Pods_KWPublicUISDK_Tests {
+  umbrella header "Pods-KWPublicUISDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
